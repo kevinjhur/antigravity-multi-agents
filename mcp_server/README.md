@@ -54,7 +54,7 @@ Antigravity의 MCP 설정은 로컬 파일에 저장되며, 클라우드로 동�
 
 ---
 
-## 💡 Tip: 멀티 프로젝트 관리
+## 💡 Tip: 멀티 프로젝트 관리 (Workspace)
 
 Antigravity(VS Code 기반) 창 하나에서 여러 프로젝트를 동시에 관리하려면:
 
@@ -62,4 +62,8 @@ Antigravity(VS Code 기반) 창 하나에서 여러 프로젝트를 동시에 �
 2. 추가할 프로젝트 폴더 선택
 3. **File > Save Workspace As...** 로 워크스페이스 저장 (`.code-workspace`)
 
-이렇게 하면 하나의 창에서 여러 리포지토리를 오가며 작업할 수 있습니다.
+### ⚠️ 주의: `.code-workspace` 파일 관리
+
+- **위치**: 사용자 PC의 로컬 경로 (예: `C:\Workspaces\MyProject.code-workspace`)에 저장하세요.
+- **Git 제외**: 이 파일에는 로컬 경로(`C:\...` 또는 `/home/...`)가 포함되므로 **Git에 올리지 않는 것이 좋습니다.**
+- **추천**: `.gitignore`에 `*.code-workspace`를 추가하여 실수로 커밋되는 것을 방지하세요.
