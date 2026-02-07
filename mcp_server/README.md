@@ -11,7 +11,17 @@ Antigravity의 MCP 설정은 로컬 파일에 저장되며, 클라우드로 동�
 - **Windows**: `C:\Users\%USERNAME%\.gemini\antigravity\mcp_config.json`
 - **macOS / Linux**: `~/.gemini/antigravity/mcp_config.json`
 
-## ⚙️ 설정 방법
+## ✅ 사전 요구사항 (Prerequisites)
+
+이 모든 MCP 서버들은 `npx` (Node.js 패키지 실행 도구)를 기반으로 동작합니다.
+반드시 **[Node.js](https://nodejs.org/)**가 설치되어 있어야 합니다.
+
+## 🚀 설치가 필요 없나요? (자동 설치)
+
+**네, 별도로 설치할 필요가 없습니다!**
+`mcp_config.json` 파일만 제 위치에 있으면, Antigravity가 실행될 때 자동으로 필요한 패키지를 다운로드하고 실행합니다.
+
+## ⚙️ 설정 방법 (Step-by-Step)
 
 1. 이 폴더에 있는 `config_template.json` 파일의 내용을 복사합니다.
 2. 위 경로의 `mcp_config.json` 파일을 엽니다. (없으면 생성)
