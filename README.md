@@ -4,19 +4,19 @@ This folder (`.agent`) contains configurations for your **custom AI Agent Team**
 
 ## 📂 Structure
 
-- **`agents/`**: Defines the Personas and Roles of each agent.
-- **`skills/`**: Defines specific Skills for task execution.
-- **`rules/`**: (Optional) Project-wide rules and guidelines.
+- **`.agent/agents/`**: Defines the Personas and Roles of each agent.
+- **`.agent/skills/`**: Defines specific Skills for task execution.
+- **`.agent/rules/`**: (Optional) Project-wide rules and guidelines.
 
 ## 👥 Meet Your Team (Short Names)
 
-| Role (Abbr) |    Full Title     | Responsibility                            | File Path       |
-| :---------: | :---------------: | :---------------------------------------- | :-------------- |
-|  👑 **TL**  |     Tech Lead     | Project supervision, tech stack decisions | `agents/tl.md`  |
-|  🤖 **SP**  | System Programmer | **ROS2**, **C8051 Firmware** expert       | `agents/sp.md`  |
-|  🎨 **FE**  |  Frontend Expert  | Next.js, React, Tailwind UI               | `agents/fe.md`  |
-|  🛡️ **BE**  | Backend Architect | Supabase DB, Node.js API                  | `agents/be.md`  |
-| ✍️ **SEO**  |    SEO Writer     | Content marketing writing (Skill)         | `skills/seo.md` |
+| Role (Abbr) |    Full Title     | Responsibility                            | File Path              |
+| :---------: | :---------------: | :---------------------------------------- | :--------------------- |
+|  👑 **TL**  |     Tech Lead     | Project supervision, tech stack decisions | `.agent/agents/tl.md`  |
+|  🤖 **SP**  | System Programmer | **ROS2**, **C8051 Firmware** expert       | `.agent/agents/sp.md`  |
+|  🎨 **FE**  |  Frontend Expert  | Next.js, React, Tailwind UI               | `.agent/agents/fe.md`  |
+|  🛡️ **BE**  | Backend Architect | Supabase DB, Node.js API                  | `.agent/agents/be.md`  |
+| ✍️ **SEO**  |    SEO Writer     | Content marketing writing (Skill)         | `.agent/skills/seo.md` |
 
 ## 🚀 How to Use
 

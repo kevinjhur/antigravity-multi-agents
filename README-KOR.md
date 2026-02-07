@@ -4,19 +4,19 @@
 
 ## 📂 폴더 구조
 
-- **`agents/`**: 각 에이전트의 역할(Persona) 정의 파일
-- **`skills/`**: 특정 작업 수행을 위한 스킬(Skill) 정의 파일
-- **`rules/`**: 프로젝트 전반에 적용되는 규칙 파일 (선택 사항)
+- **`.agent/agents/`**: 각 에이전트의 역할(Persona) 정의 파일
+- **`.agent/skills/`**: 특정 작업 수행을 위한 스킬(Skill) 정의 파일
+- **`.agent/rules/`**: 프로젝트 전반에 적용되는 규칙 파일 (선택 사항)
 
 ## 👥 현재 구성된 에이전트 팀 (약어 사용)
 
-| 약어 (Role) |     전체 이름     | 주요 역할                          | 파일 위치       |
-| :---------: | :---------------: | :--------------------------------- | :-------------- |
-|  👑 **TL**  |     Tech Lead     | 프로젝트 총괄, 기술 스택 결정      | `agents/tl.md`  |
-|  🤖 **SP**  | System Programmer | **ROS2**, **C8051 펌웨어** 개발    | `agents/sp.md`  |
-|  🎨 **FE**  |  Frontend Expert  | Next.js, React, Tailwind UI        | `agents/fe.md`  |
-|  🛡️ **BE**  | Backend Architect | Supabase DB, Node.js API           | `agents/be.md`  |
-| ✍️ **SEO**  |    SEO Writer     | 검색 최적화 블로그 글 작성 (Skill) | `skills/seo.md` |
+| 약어 (Role) |     전체 이름     | 주요 역할                          | 파일 위치              |
+| :---------: | :---------------: | :--------------------------------- | :--------------------- |
+|  👑 **TL**  |     Tech Lead     | 프로젝트 총괄, 기술 스택 결정      | `.agent/agents/tl.md`  |
+|  🤖 **SP**  | System Programmer | **ROS2**, **C8051 펌웨어** 개발    | `.agent/agents/sp.md`  |
+|  🎨 **FE**  |  Frontend Expert  | Next.js, React, Tailwind UI        | `.agent/agents/fe.md`  |
+|  🛡️ **BE**  | Backend Architect | Supabase DB, Node.js API           | `.agent/agents/be.md`  |
+| ✍️ **SEO**  |    SEO Writer     | 검색 최적화 블로그 글 작성 (Skill) | `.agent/skills/seo.md` |
 
 ## 🚀 사용 방법
 
