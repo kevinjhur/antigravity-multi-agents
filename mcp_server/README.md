@@ -52,6 +52,21 @@ Antigravity의 MCP 설정은 로컬 파일에 저장되며, 클라우드로 동�
 - **용도**: Google NotebookLM 연동 (문서 기반 질의응답)
 - **설치**: `npx -y notebooklm-mcp@latest` (자동 실행됨)
 
+### 5. **Stitch MCP** (`stitch-mcp`)
+
+- **용도**: Google Stitch와 연동하여 AI가 UI 디자인 컨텍스트를 이해하고 화면 생성 지원
+- **필요 사항**:
+  - `GOOGLE_CLOUD_PROJECT`: Google Cloud Project ID
+  - **Google Cloud SDK (`gcloud`)** 설치 및 인증 필요
+- **사전 준비 (필수)**:
+  1. Google Cloud Project 생성 및 `stitch.googleapis.com` API 활성화
+  2. 터미널에서 인증 실행:
+     ```bash
+     gcloud auth application-default login
+     gcloud config set project YOUR_PROJECT_ID
+     ```
+- **설치**: `npx -y stitch-mcp` (자동 실행됨)
+
 ---
 
 ## 💡 Tip: 멀티 프로젝트 관리 (Workspace)

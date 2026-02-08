@@ -32,6 +32,16 @@
                 "-y",
                 "notebooklm-mcp@latest"
             ]
+        },
+        "stitch": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "stitch-mcp"
+            ],
+            "env": {
+                "GOOGLE_CLOUD_PROJECT": "<YOUR_GCP_PROJECT_ID>"
+            }
         }
     }
 }
