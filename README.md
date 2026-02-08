@@ -1,6 +1,6 @@
 # 🤖 My Multi-Agent AI Team with MCP
 
-This folder (`.agent`) contains configurations for your **custom AI Agent Team** within Antigravity IDE. Copy and paste this folder into any new project to instantly deploy your team.
+This folder (`.agent`)- **MCP Server Configuration**: See [docs/mcp_guide.md](docs/mcp_guide.md). AI Agent Team\*\* within Antigravity IDE. Copy and paste this folder into any new project to instantly deploy your team.
 
 ## 📂 Structure
 
