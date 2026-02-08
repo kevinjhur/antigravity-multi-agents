@@ -15,25 +15,25 @@
 
 ## 👥 현재 구성된 에이전트 팀 (약어 사용)
 
-|  약어 (Role)  |     전체 이름      | 주요 역할                                   | 파일 위치                 |
-| :-----------: | :----------------: | :------------------------------------------ | :------------------------ |
-|   👑 **TL**   |     Tech Lead      | 프로젝트 총괄, 기술 스택 결정               | `.agent/agents/tl.md`     |
-|   🎨 **GD**   |  Graphic Designer  | UI/UX 디자인 담당 (Stitch MCP 활용)         | `.agent/agents/gd.md`     |
-|   🤖 **SP**   | System Programmer  | **ROS2**, **C8051 펌웨어** 개발             | `.agent/agents/sp.md`     |
-|   🎨 **FE**   |  Frontend Expert   | Next.js, React, Tailwind UI                 | `.agent/agents/fe.md`     |
-|   🛡️ **BE**   | Backend Architect  | Supabase DB, Node.js API                    | `.agent/agents/be.md`     |
-| 🧪 **Tester** | QA / Test Engineer | 품질 보증, 테스트 자동화 및 검증 (CEO 대행) | `.agent/agents/tester.md` |
-|  ✍️ **SEO**   |     SEO Writer     | 검색 최적화 블로그 글 작성 (Skill)          | `.agent/skills/seo.md`    |
+|  약어 (Role)  |     전체 이름      | 주요 역할                                   | 파일 위치                       |
+| :-----------: | :----------------: | :------------------------------------------ | :------------------------------ |
+|   👑 **TL**   |     Tech Lead      | 프로젝트 총괄, 기술 스택 결정               | `.antigravity/agents/tl.md`     |
+|   🎨 **GD**   |  Graphic Designer  | UI/UX 디자인 담당 (Stitch MCP 활용)         | `.antigravity/agents/gd.md`     |
+|   🤖 **SP**   | System Programmer  | **ROS2**, **C8051 펌웨어** 개발             | `.antigravity/agents/sp.md`     |
+|   🎨 **FE**   |  Frontend Expert   | Next.js, React, Tailwind UI                 | `.antigravity/agents/fe.md`     |
+|   🛡️ **BE**   | Backend Architect  | Supabase DB, Node.js API                    | `.antigravity/agents/be.md`     |
+| 🧪 **Tester** | QA / Test Engineer | 품질 보증, 테스트 자동화 및 검증 (CEO 대행) | `.antigravity/agents/tester.md` |
+|  ✍️ **SEO**   |     SEO Writer     | 검색 최적화 블로그 글 작성 (Skill)          | `.antigravity/skills/seo.md`    |
 
 ## 🚀 사용 방법
 
 ### 1. 새 프로젝트에 적용하기
 
-새로운 프로젝트를 시작할 때, `.agent` 폴더를 프로젝트 최상위 경로(Root)에 복사하세요.
+새로운 프로젝트를 시작할 때, `.antigravity` 폴더를 프로젝트 최상위 경로(Root)에 복사하세요.
 
 ```bash
-# 예시: 새 프로젝트 폴더로 .agent 복사
-cp -r /path/to/template/.agent /path/to/new-project/
+# 예시: 새 프로젝트 폴더로 .antigravity 복사
+cp -r /path/to/template/.antigravity /path/to/new-project/
 ```
 
 ### 2. 에이전트에게 명령하기
