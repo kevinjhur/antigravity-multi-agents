@@ -13,6 +13,7 @@ This folder (`.agent`) contains configurations for your **custom AI Agent Team**
 | Role (Abbr) |    Full Title     | Responsibility                            | File Path              |
 | :---------: | :---------------: | :---------------------------------------- | :--------------------- |
 |  👑 **TL**  |     Tech Lead     | Project supervision, tech stack decisions | `.agent/agents/tl.md`  |
+|  🎨 **GD**  | Graphic Designer  | UI/UX Design, Stitch MCP usage            | `.agent/agents/gd.md`  |
 |  🤖 **SP**  | System Programmer | **ROS2**, **C8051 Firmware** expert       | `.agent/agents/sp.md`  |
 |  🎨 **FE**  |  Frontend Expert  | Next.js, React, Tailwind UI               | `.agent/agents/fe.md`  |
 |  🛡️ **BE**  | Backend Architect | Supabase DB, Node.js API                  | `.agent/agents/be.md`  |

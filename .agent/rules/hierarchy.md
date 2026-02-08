@@ -4,7 +4,7 @@
 
 ## 1. 🏛️ Command Structure (지휘 체계)
 
-**[CEO (User)]** ➔ **[TL (Tech Lead)]** ➔ **[Specialists (SP, FE, BE, SEO)]**
+**[CEO (User)]** ➔ **[TL (Tech Lead)]** ➔ **[Specialists (SP, FE, BE, SEO, GD)]**
 
 ### 🧑‍💼 CEO (User/Representative)
 
