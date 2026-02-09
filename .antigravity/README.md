@@ -4,7 +4,7 @@ This folder (`.agent`) contains configurations for your **custom AI Agent Team**
 
 ## 📂 Structure
 
-- **`.agent/agents/`**: Defines the Personas and Roles of each agent.
+- **`.antigravity/agents/`**: Defines the Personas and Roles of each agent.
 - **`.antigravity/agents/`**: Defines the Personas and Roles of each agent.
 - **`.antigravity/skills/`**: Defines specific Skills for task execution.
 - **`.antigravity/rules/`**: (Optional) Project-wide rules and guidelines.
@@ -54,4 +54,4 @@ Modify agent settings to fit specific project needs.
 ## 📝 Tips
 
 - **Team Sharing**: Add this folder to your Git repository to share the same dev environment and rules with your team.
-- **Personal Use**: Add `.agent/` to `.gitignore` if you want to use these agents privately.
+- **Personal Use**: Add `.antigravity/` to `.gitignore` if you want to use these agents privately.

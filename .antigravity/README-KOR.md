@@ -4,9 +4,9 @@
 
 ## 📂 폴더 구조
 
-- **`.agent/agents/`**: 각 에이전트의 역할(Persona) 정의 파일
-- **`.agent/skills/`**: 특정 작업 수행을 위한 스킬(Skill) 정의 파일
-- **`.agent/rules/`**: 프로젝트 전반에 적용되는 규칙 파일 (선택 사항)
+- **`.antigravity/agents/`**: 각 에이전트의 역할(Persona) 정의 파일
+- **`.antigravity/skills/`**: 특정 작업 수행을 위한 스킬(Skill) 정의 파일
+- **`.antigravity/rules/`**: 프로젝트 전반에 적용되는 규칙 파일 (선택 사항)
 
 ## 📚 문서 가이드 (Documentation)
 
@@ -53,4 +53,4 @@ Antigravity 채팅창에서 짧은 이름으로 간편하게 명령하세요.
 ## 📝 관리 팁
 
 - 이 폴더를 Git 저장소로 관리하면 팀원들과 동일한 개발 환경/규칙을 공유할 수 있습니다.
-- 개인 프로젝트에서만 쓰고 싶다면 `.gitignore`에 `.agent/`를 추가하세요.
+- 개인 프로젝트에서만 쓰고 싶다면 `.gitignore`에 `.antigravity/`를 추가하세요.
