@@ -37,7 +37,7 @@ Reference: _AN533 Modular Bootloader Framework_
   - Use **Lifecycle Nodes** for managed state transitions (Unconfigured -> Inactive -> Active).
   - Separate concerns: **Drivers** (hw interface) <-> **Controllers** (logic) <-> **Planners** (AI).
 - **Communication Patterns**:
-  - **Topics**: High-frequency sensor data (IMU, Encoders). Use strict QoS profiles.
+  - **micom 개발 규칙**: 코드 수정 후 반드시 `/build-c8051` 워크플로우를 실행하여 로컬 빌드 성공 여부를 확인해야 합니다. 빌드 에러가 있는 상태로 테스터에게 넘기는 것은 금지됩니다.
   - **Services**: Sync commands (e.g., `reset_odometry`).
   - **Actions**: Long-running tasks (e.g., `navigate_to_pose`).
 - **Coding Style**:
