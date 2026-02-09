@@ -50,7 +50,8 @@ function Run-Upload {
     $HexFile = Join-Path $BuildDir "LIGNex1_USV.hex"
     if (Test-Path $HexFile) {
         Write-Host "`n>>> [UPLOAD] Uploading firmware: $HexFile" -ForegroundColor Cyan
-        & $Commander flash $HexFile --device C8051F580
+        # C8051은 Silicon Labs USB Debug Adapter 사용
+        & $Commander flash $HexFile --device C8051F580 --interface usb
     } else {
         Write-Error "Hex file not found! Please build first. (Path: $HexFile)"
     }
