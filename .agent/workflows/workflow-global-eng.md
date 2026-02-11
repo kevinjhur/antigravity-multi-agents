@@ -54,3 +54,10 @@ Modify agent settings to fit specific project needs.
 
 - **Team Sharing**: Add this folder to your Git repository to share the same dev environment and rules with your team.
 - **Personal Use**: Add `.agent/` to `.gitignore` if you want to use these agents privately.
+
+📉 Token Efficiency Guidelines (English)
+Agent-wide Principle: All agents must adhere to the "Minimum Output, Maximum Insight" principle. Keep responses concise and focused.
+
+Code Modifications: Do NOT rewrite the entire file. Provide only the Diff-style updates or modified snippets. Use comments like // ... (existing code) ... to represent unchanged sections and save output tokens.
+
+Clarification First: If a request is ambiguous, do not guess and rewrite large files. Instead, ask a brief clarifying question to narrow down the scope before proceeding.
